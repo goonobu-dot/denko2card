@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0852FEE74ECAFFBA486D84DE /* StudyQueueBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D2E4A36B0A395E3910A29 /* StudyQueueBuilderTests.swift */; };
+		0B5063613D1E2C8FA133663F /* DeckSchemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4176DDCEAA7A9B4B45068EF2 /* DeckSchemaTests.swift */; };
+		1885B63DDD96C43B55801DDB /* ExamPaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F7C7BCC337EC4ED38F55D5 /* ExamPaceTests.swift */; };
+		249224FADDBDC0D6F0822FED /* FactsCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0C764E3AC784777EC10E3 /* FactsCatalog.swift */; };
+		24931E664DD99A101C6E16A8 /* CardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFBB5539EDBDBAB314A5E8 /* CardTheme.swift */; };
+		306F3ACAD7742504937DA63A /* FlameShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D757C864781DB19A1E1AAEDE /* FlameShape.swift */; };
+		379F91EDC2956DC1620DC03B /* LearnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A4059F8F63409253D52098 /* LearnCardView.swift */; };
+		3A29866366D52B7C96356748 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB9C0B16624F82D802D4E3A /* TodayView.swift */; };
+		4ECD1C88658EA9CB5834FDA9 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86686B93A6ADFB8D1233BF10 /* ProgressHomeView.swift */; };
+		517527DF98AF802A5FCE97D5 /* DeckCompatibilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF08815AD5E2F7327D061AE /* DeckCompatibilityTests.swift */; };
+		5D2F93C02A5A7CD6089908DA /* HintTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA88F04A850DC5772044F7 /* HintTemplates.swift */; };
+		6213F82FD6FC0B9D52FA564B /* deck-zumen.json in Resources */ = {isa = PBXBuildFile; fileRef = E25F0F844CA7D21D2877ABA9 /* deck-zumen.json */; };
+		73EA5BB41C806F7403F85482 /* AppSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8A3987DE70C332934CF7A /* AppSettingsStore.swift */; };
+		7552033BCB4132E91EED4508 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B48EB1CCD340B6AC3059C63 /* RootView.swift */; };
+		7E94B379841C8EEDCA90A4F7 /* HintTemplatePreviewExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2109E71415A4D28A9B0C1A /* HintTemplatePreviewExportTests.swift */; };
+		8446C7C2DCA50754DCF295F6 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1435BCF46451A7D04CD08B1 /* SchedulerTests.swift */; };
+		90088C11351A17B2C1D0DB5C /* ExamPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD8F0BAFF137DB59DA86EF /* ExamPace.swift */; };
+		90FF9ECC76A1D601436C1976 /* HintImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FE27A53BEDDF82339687D2 /* HintImageView.swift */; };
+		94758CC1A5FD256A45846414 /* HintStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A976E1A381A06163FF6726 /* HintStateMachine.swift */; };
+		98BC04FDDFE4605C16280297 /* StudyLimiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EC7A0151D5D7AC369BFDED /* StudyLimiterTests.swift */; };
+		A9701D9AF8412F67EE531C07 /* DeckLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D532C29B4290971B3E4B38F /* DeckLoader.swift */; };
+		AC23E50E8C6C968C308CEDE6 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C020A870E6976B3E13757C /* PaywallView.swift */; };
+		BBC7CDDF97E5388F8952FDDF /* CardProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102351FC6F4332D182B789EA /* CardProgress.swift */; };
+		BCE06B02BCD2202BD3C18EF8 /* CardDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE3231BCE186AE0FCB66D8 /* CardDefinition.swift */; };
+		BCE98AB7FFCC4F7CFC5570ED /* LearnFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAE1D026D61389771E9899 /* LearnFlowUITests.swift */; };
+		BE347B02CAFD33B62B33300F /* HintStateMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C37E97838CA6F9F49E1454 /* HintStateMachineTests.swift */; };
+		BED470B495738506E5270D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B39FD1EA3652F1629F3585 /* Assets.xcassets */; };
+		C16783F9FEE440B8C3EECF21 /* LearnFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD586AECA889DB76D7671AB /* LearnFlowView.swift */; };
+		C58F03E03549724FD0E33F7F /* deck-houki.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DE3EBEC5614839FC3FDF1F5 /* deck-houki.json */; };
+		C7E1F4BB363A09148E84FDEF /* Denko2CardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A733C4D9DB633DB22058C99B /* Denko2CardApp.swift */; };
+		C8A717D6B5382A1119163955 /* StudyLimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89597C9B0CFDED6C011E17E /* StudyLimiter.swift */; };
+		C9A4F2079D8030CCBA2C1439 /* ProductIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CEC0094E2EE115EA47A4A3 /* ProductIDs.swift */; };
+		CA3408B8C02EC4273A1103DB /* StudyQueueBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8ABC867BF3938FB21C811F /* StudyQueueBuilder.swift */; };
+		CC6596704D6B9738CC2B788F /* StoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A114CBE39C1F5A440D5D8F /* StoreScreenshotTests.swift */; };
+		D88B4934742E7915F6333FD6 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB7AB687A3728174B676D5 /* Scheduler.swift */; };
+		D99DD99A43835136AD1D0E68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06D83BBBA45A8AC857EF07 /* SettingsView.swift */; };
+		DAA8103EDCCDB2D84132EE1D /* EntitlementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA865B2DB27BD16258B5BC5 /* EntitlementStore.swift */; };
+		EF1AC3FACFD3E5D7D4CBB31E /* deck-kizai.json in Resources */ = {isa = PBXBuildFile; fileRef = E51CFFC296B4C1DE2A03C5CC /* deck-kizai.json */; };
+		F180C07B657C44DA89C62F62 /* DeckRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5961A4566967F279A95636 /* DeckRepository.swift */; };
+		F5FCC642DF9B4F8C2EC43EC8 /* DeckValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1632658900EFAC7912E9D6A5 /* DeckValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02FBA58030D4C2E2EADBEC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465364EB329E2C460EC8075C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF86642CC1E57DA0958AAE7D;
+			remoteInfo = Denko2Card;
+		};
+		26081DE49B29C7A16730ABCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465364EB329E2C460EC8075C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF86642CC1E57DA0958AAE7D;
+			remoteInfo = Denko2Card;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FE27A53BEDDF82339687D2 /* HintImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintImageView.swift; sourceTree = "<group>"; };
+		0BF21C37F1010011603C546B /* Denko2CardUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Denko2CardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE3EBEC5614839FC3FDF1F5 /* deck-houki.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-houki.json"; sourceTree = "<group>"; };
+		102351FC6F4332D182B789EA /* CardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProgress.swift; sourceTree = "<group>"; };
+		11F7C7BCC337EC4ED38F55D5 /* ExamPaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPaceTests.swift; sourceTree = "<group>"; };
+		1632658900EFAC7912E9D6A5 /* DeckValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckValidator.swift; sourceTree = "<group>"; };
+		1A1D2E4A36B0A395E3910A29 /* StudyQueueBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilderTests.swift; sourceTree = "<group>"; };
+		1D532C29B4290971B3E4B38F /* DeckLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckLoader.swift; sourceTree = "<group>"; };
+		32C020A870E6976B3E13757C /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		35DB2D0F7DEF127801AAE8F0 /* Denko2CardTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Denko2CardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4176DDCEAA7A9B4B45068EF2 /* DeckSchemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckSchemaTests.swift; sourceTree = "<group>"; };
+		5AB2AA8B5E4C370FC7A7A1CF /* Denko2Card.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Denko2Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E06D83BBBA45A8AC857EF07 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5FCA88F04A850DC5772044F7 /* HintTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTemplates.swift; sourceTree = "<group>"; };
+		6ECFBB5539EDBDBAB314A5E8 /* CardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTheme.swift; sourceTree = "<group>"; };
+		86686B93A6ADFB8D1233BF10 /* ProgressHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHomeView.swift; sourceTree = "<group>"; };
+		87A114CBE39C1F5A440D5D8F /* StoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreenshotTests.swift; sourceTree = "<group>"; };
+		8A2109E71415A4D28A9B0C1A /* HintTemplatePreviewExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTemplatePreviewExportTests.swift; sourceTree = "<group>"; };
+		8CD586AECA889DB76D7671AB /* LearnFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowView.swift; sourceTree = "<group>"; };
+		8FDD8F0BAFF137DB59DA86EF /* ExamPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPace.swift; sourceTree = "<group>"; };
+		95A976E1A381A06163FF6726 /* HintStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachine.swift; sourceTree = "<group>"; };
+		9B48EB1CCD340B6AC3059C63 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9C5961A4566967F279A95636 /* DeckRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckRepository.swift; sourceTree = "<group>"; };
+		9DF08815AD5E2F7327D061AE /* DeckCompatibilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCompatibilityTests.swift; sourceTree = "<group>"; };
+		A4BE3231BCE186AE0FCB66D8 /* CardDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDefinition.swift; sourceTree = "<group>"; };
+		A6EC7A0151D5D7AC369BFDED /* StudyLimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiterTests.swift; sourceTree = "<group>"; };
+		A733C4D9DB633DB22058C99B /* Denko2CardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denko2CardApp.swift; sourceTree = "<group>"; };
+		A8E56638C08E6732D12ECB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B0A4059F8F63409253D52098 /* LearnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardView.swift; sourceTree = "<group>"; };
+		B0C37E97838CA6F9F49E1454 /* HintStateMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintStateMachineTests.swift; sourceTree = "<group>"; };
+		B4AAE1D026D61389771E9899 /* LearnFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnFlowUITests.swift; sourceTree = "<group>"; };
+		BB8ABC867BF3938FB21C811F /* StudyQueueBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyQueueBuilder.swift; sourceTree = "<group>"; };
+		BCA865B2DB27BD16258B5BC5 /* EntitlementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementStore.swift; sourceTree = "<group>"; };
+		BDA0C764E3AC784777EC10E3 /* FactsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsCatalog.swift; sourceTree = "<group>"; };
+		C89597C9B0CFDED6C011E17E /* StudyLimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyLimiter.swift; sourceTree = "<group>"; };
+		CBB9C0B16624F82D802D4E3A /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		D757C864781DB19A1E1AAEDE /* FlameShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameShape.swift; sourceTree = "<group>"; };
+		D8CEC0094E2EE115EA47A4A3 /* ProductIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductIDs.swift; sourceTree = "<group>"; };
+		E1435BCF46451A7D04CD08B1 /* SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerTests.swift; sourceTree = "<group>"; };
+		E25F0F844CA7D21D2877ABA9 /* deck-zumen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-zumen.json"; sourceTree = "<group>"; };
+		E51CFFC296B4C1DE2A03C5CC /* deck-kizai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "deck-kizai.json"; sourceTree = "<group>"; };
+		E7B39FD1EA3652F1629F3585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA8A3987DE70C332934CF7A /* AppSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsStore.swift; sourceTree = "<group>"; };
+		FCCB7AB687A3728174B676D5 /* Scheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F1DB6D1700449ADDDA78C7E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A733C4D9DB633DB22058C99B /* Denko2CardApp.swift */,
+				9B48EB1CCD340B6AC3059C63 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10E4FA9A4B0EB5BB90958A2B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				CBB9C0B16624F82D802D4E3A /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		276CD5A1146031419AD5BC01 /* HintTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				6ECFBB5539EDBDBAB314A5E8 /* CardTheme.swift */,
+				D757C864781DB19A1E1AAEDE /* FlameShape.swift */,
+				05FE27A53BEDDF82339687D2 /* HintImageView.swift */,
+				5FCA88F04A850DC5772044F7 /* HintTemplates.swift */,
+			);
+			path = HintTemplates;
+			sourceTree = "<group>";
+		};
+		27D574105EC549A473D4A037 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8A3987DE70C332934CF7A /* AppSettingsStore.swift */,
+				102351FC6F4332D182B789EA /* CardProgress.swift */,
+				9C5961A4566967F279A95636 /* DeckRepository.swift */,
+				C89597C9B0CFDED6C011E17E /* StudyLimiter.swift */,
+				BB8ABC867BF3938FB21C811F /* StudyQueueBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		328FF8FD1C196058F875BBD5 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8FDD8F0BAFF137DB59DA86EF /* ExamPace.swift */,
+				95A976E1A381A06163FF6726 /* HintStateMachine.swift */,
+				FCCB7AB687A3728174B676D5 /* Scheduler.swift */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		37140D9772CCFD4BE28FF8CE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5E06D83BBBA45A8AC857EF07 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3F2298178368051F65D85E96 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				B0A4059F8F63409253D52098 /* LearnCardView.swift */,
+				8CD586AECA889DB76D7671AB /* LearnFlowView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		4B3DFC7C39FC45AC2A73D169 /* Denko2CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF08815AD5E2F7327D061AE /* DeckCompatibilityTests.swift */,
+				4176DDCEAA7A9B4B45068EF2 /* DeckSchemaTests.swift */,
+				11F7C7BCC337EC4ED38F55D5 /* ExamPaceTests.swift */,
+				B0C37E97838CA6F9F49E1454 /* HintStateMachineTests.swift */,
+				8A2109E71415A4D28A9B0C1A /* HintTemplatePreviewExportTests.swift */,
+				E1435BCF46451A7D04CD08B1 /* SchedulerTests.swift */,
+				A6EC7A0151D5D7AC369BFDED /* StudyLimiterTests.swift */,
+				1A1D2E4A36B0A395E3910A29 /* StudyQueueBuilderTests.swift */,
+			);
+			path = Denko2CardTests;
+			sourceTree = "<group>";
+		};
+		5E4DEC31123CDCF40387CA65 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				32C020A870E6976B3E13757C /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		7E2CED55A28EF69C000CCF4B /* Denko2CardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4AAE1D026D61389771E9899 /* LearnFlowUITests.swift */,
+				87A114CBE39C1F5A440D5D8F /* StoreScreenshotTests.swift */,
+			);
+			path = Denko2CardUITests;
+			sourceTree = "<group>";
+		};
+		8084E15D2C6582E1DF67E4B8 /* Denko2Card */ = {
+			isa = PBXGroup;
+			children = (
+				A8E56638C08E6732D12ECB47 /* Info.plist */,
+				0F1DB6D1700449ADDDA78C7E /* App */,
+				BD31827E7125B9A14ED1424C /* Deck */,
+				D3BB3674B2B9C370C4E44FE4 /* Features */,
+				276CD5A1146031419AD5BC01 /* HintTemplates */,
+				27D574105EC549A473D4A037 /* Models */,
+				E9713B66EFB304B98828CFD0 /* Resources */,
+				328FF8FD1C196058F875BBD5 /* Scheduler */,
+				9CE777C611694A9DFB0A74BF /* Store */,
+			);
+			path = Denko2Card;
+			sourceTree = "<group>";
+		};
+		83B3FDE1240544888496DA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB2AA8B5E4C370FC7A7A1CF /* Denko2Card.app */,
+				35DB2D0F7DEF127801AAE8F0 /* Denko2CardTests.xctest */,
+				0BF21C37F1010011603C546B /* Denko2CardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F48CA00582FA1E459B50CCE = {
+			isa = PBXGroup;
+			children = (
+				8084E15D2C6582E1DF67E4B8 /* Denko2Card */,
+				4B3DFC7C39FC45AC2A73D169 /* Denko2CardTests */,
+				7E2CED55A28EF69C000CCF4B /* Denko2CardUITests */,
+				83B3FDE1240544888496DA30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CDA2E781EA0F7D4F44B779 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				86686B93A6ADFB8D1233BF10 /* ProgressHomeView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		9CE777C611694A9DFB0A74BF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				BCA865B2DB27BD16258B5BC5 /* EntitlementStore.swift */,
+				D8CEC0094E2EE115EA47A4A3 /* ProductIDs.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		BD31827E7125B9A14ED1424C /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE3231BCE186AE0FCB66D8 /* CardDefinition.swift */,
+				1D532C29B4290971B3E4B38F /* DeckLoader.swift */,
+				1632658900EFAC7912E9D6A5 /* DeckValidator.swift */,
+				BDA0C764E3AC784777EC10E3 /* FactsCatalog.swift */,
+			);
+			path = Deck;
+			sourceTree = "<group>";
+		};
+		D3BB3674B2B9C370C4E44FE4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3F2298178368051F65D85E96 /* Learn */,
+				5E4DEC31123CDCF40387CA65 /* Paywall */,
+				94CDA2E781EA0F7D4F44B779 /* Progress */,
+				37140D9772CCFD4BE28FF8CE /* Settings */,
+				10E4FA9A4B0EB5BB90958A2B /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D8497EF82125B6562D260C8C /* deck */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3EBEC5614839FC3FDF1F5 /* deck-houki.json */,
+				E51CFFC296B4C1DE2A03C5CC /* deck-kizai.json */,
+				E25F0F844CA7D21D2877ABA9 /* deck-zumen.json */,
+			);
+			path = deck;
+			sourceTree = "<group>";
+		};
+		E9713B66EFB304B98828CFD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7B39FD1EA3652F1629F3585 /* Assets.xcassets */,
+				D8497EF82125B6562D260C8C /* deck */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52804DF46188571220CDC950 /* Denko2CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA614029FEAC8448CB7FB0CF /* Build configuration list for PBXNativeTarget "Denko2CardTests" */;
+			buildPhases = (
+				301475A14FA723A66E54EADA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0B614B80BC571FE6CC005E /* PBXTargetDependency */,
+			);
+			name = Denko2CardTests;
+			packageProductDependencies = (
+			);
+			productName = Denko2CardTests;
+			productReference = 35DB2D0F7DEF127801AAE8F0 /* Denko2CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6509D6FA86660C7688AEFAFD /* Denko2CardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D272ADFF7B20E3AE63555EB5 /* Build configuration list for PBXNativeTarget "Denko2CardUITests" */;
+			buildPhases = (
+				3C184D5654E6D44BC67A0A3B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB55524A497B1C1B955C528 /* PBXTargetDependency */,
+			);
+			name = Denko2CardUITests;
+			packageProductDependencies = (
+			);
+			productName = Denko2CardUITests;
+			productReference = 0BF21C37F1010011603C546B /* Denko2CardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BF86642CC1E57DA0958AAE7D /* Denko2Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD24C0C577119C6F423F3526 /* Build configuration list for PBXNativeTarget "Denko2Card" */;
+			buildPhases = (
+				A3F6BD236BF20E354D168D12 /* Sources */,
+				8F3B4F7E4270F541315A9458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Denko2Card;
+			packageProductDependencies = (
+			);
+			productName = Denko2Card;
+			productReference = 5AB2AA8B5E4C370FC7A7A1CF /* Denko2Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465364EB329E2C460EC8075C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6509D6FA86660C7688AEFAFD = {
+						TestTargetID = BF86642CC1E57DA0958AAE7D;
+					};
+				};
+			};
+			buildConfigurationList = 87F06DC155A242D751BF5941 /* Build configuration list for PBXProject "Denko2Card" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8F48CA00582FA1E459B50CCE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83B3FDE1240544888496DA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF86642CC1E57DA0958AAE7D /* Denko2Card */,
+				52804DF46188571220CDC950 /* Denko2CardTests */,
+				6509D6FA86660C7688AEFAFD /* Denko2CardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F3B4F7E4270F541315A9458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED470B495738506E5270D12 /* Assets.xcassets in Resources */,
+				C58F03E03549724FD0E33F7F /* deck-houki.json in Resources */,
+				EF1AC3FACFD3E5D7D4CBB31E /* deck-kizai.json in Resources */,
+				6213F82FD6FC0B9D52FA564B /* deck-zumen.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301475A14FA723A66E54EADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517527DF98AF802A5FCE97D5 /* DeckCompatibilityTests.swift in Sources */,
+				0B5063613D1E2C8FA133663F /* DeckSchemaTests.swift in Sources */,
+				1885B63DDD96C43B55801DDB /* ExamPaceTests.swift in Sources */,
+				BE347B02CAFD33B62B33300F /* HintStateMachineTests.swift in Sources */,
+				7E94B379841C8EEDCA90A4F7 /* HintTemplatePreviewExportTests.swift in Sources */,
+				8446C7C2DCA50754DCF295F6 /* SchedulerTests.swift in Sources */,
+				98BC04FDDFE4605C16280297 /* StudyLimiterTests.swift in Sources */,
+				0852FEE74ECAFFBA486D84DE /* StudyQueueBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C184D5654E6D44BC67A0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE98AB7FFCC4F7CFC5570ED /* LearnFlowUITests.swift in Sources */,
+				CC6596704D6B9738CC2B788F /* StoreScreenshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F6BD236BF20E354D168D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA5BB41C806F7403F85482 /* AppSettingsStore.swift in Sources */,
+				BCE06B02BCD2202BD3C18EF8 /* CardDefinition.swift in Sources */,
+				BBC7CDDF97E5388F8952FDDF /* CardProgress.swift in Sources */,
+				24931E664DD99A101C6E16A8 /* CardTheme.swift in Sources */,
+				A9701D9AF8412F67EE531C07 /* DeckLoader.swift in Sources */,
+				F180C07B657C44DA89C62F62 /* DeckRepository.swift in Sources */,
+				F5FCC642DF9B4F8C2EC43EC8 /* DeckValidator.swift in Sources */,
+				C7E1F4BB363A09148E84FDEF /* Denko2CardApp.swift in Sources */,
+				DAA8103EDCCDB2D84132EE1D /* EntitlementStore.swift in Sources */,
+				90088C11351A17B2C1D0DB5C /* ExamPace.swift in Sources */,
+				249224FADDBDC0D6F0822FED /* FactsCatalog.swift in Sources */,
+				306F3ACAD7742504937DA63A /* FlameShape.swift in Sources */,
+				90FF9ECC76A1D601436C1976 /* HintImageView.swift in Sources */,
+				94758CC1A5FD256A45846414 /* HintStateMachine.swift in Sources */,
+				5D2F93C02A5A7CD6089908DA /* HintTemplates.swift in Sources */,
+				379F91EDC2956DC1620DC03B /* LearnCardView.swift in Sources */,
+				C16783F9FEE440B8C3EECF21 /* LearnFlowView.swift in Sources */,
+				AC23E50E8C6C968C308CEDE6 /* PaywallView.swift in Sources */,
+				C9A4F2079D8030CCBA2C1439 /* ProductIDs.swift in Sources */,
+				4ECD1C88658EA9CB5834FDA9 /* ProgressHomeView.swift in Sources */,
+				7552033BCB4132E91EED4508 /* RootView.swift in Sources */,
+				D88B4934742E7915F6333FD6 /* Scheduler.swift in Sources */,
+				D99DD99A43835136AD1D0E68 /* SettingsView.swift in Sources */,
+				C8A717D6B5382A1119163955 /* StudyLimiter.swift in Sources */,
+				CA3408B8C02EC4273A1103DB /* StudyQueueBuilder.swift in Sources */,
+				3A29866366D52B7C96356748 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB55524A497B1C1B955C528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF86642CC1E57DA0958AAE7D /* Denko2Card */;
+			targetProxy = 02FBA58030D4C2E2EADBEC8B /* PBXContainerItemProxy */;
+		};
+		EB0B614B80BC571FE6CC005E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF86642CC1E57DA0958AAE7D /* Denko2Card */;
+			targetProxy = 26081DE49B29C7A16730ABCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AC12C34F1804EF372DA81FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6487E7E35F34DC2D7AFCD729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		64B0ADDB7AC3D5C04723E150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Denko2Card;
+			};
+			name = Debug;
+		};
+		76A353E7AA3850BAAD5D9806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Denko2Card/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A86970747DEEB135B3A382D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Denko2Card/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D05793C4E8C597760517656E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Denko2Card;
+			};
+			name = Release;
+		};
+		DE01AB2BFA465498E66175DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denko2Card.app/Denko2Card";
+			};
+			name = Release;
+		};
+		E527635ECA4D2F67B86D4DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.goonobu.denko2card.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Denko2Card.app/Denko2Card";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F06DC155A242D751BF5941 /* Build configuration list for PBXProject "Denko2Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6487E7E35F34DC2D7AFCD729 /* Debug */,
+				4AC12C34F1804EF372DA81FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD24C0C577119C6F423F3526 /* Build configuration list for PBXNativeTarget "Denko2Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86970747DEEB135B3A382D8 /* Debug */,
+				76A353E7AA3850BAAD5D9806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D272ADFF7B20E3AE63555EB5 /* Build configuration list for PBXNativeTarget "Denko2CardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B0ADDB7AC3D5C04723E150 /* Debug */,
+				D05793C4E8C597760517656E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA614029FEAC8448CB7FB0CF /* Build configuration list for PBXNativeTarget "Denko2CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E527635ECA4D2F67B86D4DE6 /* Debug */,
+				DE01AB2BFA465498E66175DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465364EB329E2C460EC8075C /* Project object */;
+}
